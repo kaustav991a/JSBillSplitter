@@ -20,11 +20,16 @@ A React-based utility that helps you split restaurant bills after applying disco
 ### 1. Clone the repo
 ```bash
 git clone https://github.com/your-username/js-bill-splitter.git
+```
 
 ### 2. Install dependencies
+```bash
 npm install
+```
 
 ### 3. Run locally
+```bash
 npm start
+```
 
 Made with ❤️ by Kaustav
