@@ -1,15 +1,30 @@
-# React + Vite
+# JS Bill Splitter 💸
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based utility that helps you split restaurant bills after applying discounts and cashback offers.
 
-Currently, two official plugins are available:
+## Features
+- Flat 25% Discount
+- ₹75 Cashback via payment partner
+- Final bill calculation after offers
+- Bill splitting among friends (including you)
+- Live breakdown of final price
+- Responsive UI
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- React
+- SCSS
+- JavaScript
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# JSTipCalculator
-# JSTipCalculator
-# JSBillSplitter
+### 1. Clone the repo
+```bash
+git clone https://github.com/your-username/js-bill-splitter.git
+
+### 2. Install dependencies
+npm install
+
+### 3. Run locally
+npm start
+
+Made with ❤️ by Kaustav
