@@ -1,0 +1,296 @@
+.jsTopOuter {
+  margin: 0 auto;
+  border: 1px solid black;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px;
+  background: rgb(236, 235, 241);
+  background: linear-gradient(180deg, rgb(236, 235, 241) 0%, rgb(255, 255, 255) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ecebf1",endColorstr="#ffffff",GradientType=1);
+  position: relative;
+}
+.jsTopOuter .payingbill h6 {
+  color: #616266;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 15px;
+}
+.jsTopOuter .payingbill h6:before {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+  left: -60px;
+  top: 8px;
+  rotate: 180deg;
+}
+.jsTopOuter .payingbill h6:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 3px;
+  background: linear-gradient(to right, black, rgba(0, 0, 0, 0));
+  right: -60px;
+  top: 8px;
+}
+.jsTopOuter .payingbill h3 {
+  font-size: 24px;
+  color: black;
+  margin-bottom: 5px;
+}
+.jsTopOuter .payingbill span {
+  color: #131313;
+  font-size: 20px;
+  display: block;
+}
+.jsTopOuter .payingbill .price {
+  max-width: 400px;
+  margin: 35px auto 5px;
+}
+.jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio]) {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid lightgrey;
+  -moz-appearance: textfield;
+  color: #686868;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 20px;
+  /* Chrome, Safari, Edge, Opera */
+}
+.jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio])::-webkit-outer-spin-button, .jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio])::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio])::-moz-placeholder {
+  opacity: 0.5;
+}
+.jsTopOuter .payingbill .price input:not([type=submit], [type=checkbox], [type=radio])::placeholder {
+  opacity: 0.5;
+}
+.jsTopOuter .discount {
+  max-width: 100%;
+  margin: 35px auto 0;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px 0px rgb(255, 211, 191);
+  background-color: #fff;
+  padding: 30px 20px 20px;
+}
+.jsTopOuter .discount .dstop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: left;
+  margin-bottom: 30px;
+}
+.jsTopOuter .discount .dstop h6 {
+  font-size: 16px;
+  color: lightgray;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.jsTopOuter .discount .dstop .offsection,
+.jsTopOuter .discount .dstop .slides {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.jsTopOuter .discount .dstop .offsection img,
+.jsTopOuter .discount .dstop .slides img {
+  width: 40px;
+}
+.jsTopOuter .discount .dstop .text h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.jsTopOuter .discount .dstop .text span {
+  color: grey;
+}
+.jsTopOuter .discount .dsbot {
+  border-top: 1px solid lightgray;
+  padding-top: 10px;
+  color: grey;
+}
+.jsTopOuter .showresult {
+  margin-top: 30px;
+  padding-bottom: 80px;
+}
+.jsTopOuter .showresult.pb-0 {
+  padding-bottom: 0;
+}
+.jsTopOuter .showresult h4 {
+  font-size: 18px;
+  font-weight: 500;
+}
+.jsTopOuter .showresult h3 {
+  color: orangered;
+  font-weight: 600;
+  font-size: 25px;
+  padding: 10px 0;
+}
+.jsTopOuter .showresult h3 span {
+  font-size: 25px;
+  color: orangered;
+}
+.jsTopOuter .showresult span {
+  color: grey;
+  font-size: 14px;
+}
+.jsTopOuter button {
+  border-radius: 30px;
+  padding: 0;
+  padding: 10px 20px;
+  border: none;
+}
+.jsTopOuter button:focus {
+  outline: none;
+  border: none;
+}
+.jsTopOuter button.apply {
+  margin-top: 35px;
+  width: calc(100% - 40px);
+  position: static;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  border: none;
+  background-color: orangered;
+  height: unset;
+}
+.jsTopOuter button.apply:disabled {
+  background-color: lightgray;
+  color: grey;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.showresult-split {
+  margin-top: 30px;
+}
+
+.splitwithfriends {
+  margin-top: 30px;
+}
+.splitwithfriends label {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.splitwithfriends label input[type=checkbox] {
+  width: 18px;
+  height: 18px;
+  accent-color: #f14100;
+}
+
+.splitwithfriends-ifyes .friendwrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  max-width: 400px;
+  width: 100%;
+}
+.splitwithfriends-ifyes .friends {
+  margin-top: 10px;
+  width: 100%;
+  position: relative;
+}
+.splitwithfriends-ifyes .friends:last-child {
+  margin-bottom: 30px;
+}
+.splitwithfriends-ifyes .friends input[type=text] {
+  background-color: white;
+  border: none;
+  padding: 15px 25px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  border-radius: 30px;
+  width: 100%;
+  padding-right: 50px;
+  text-align: center;
+}
+
+.split-info-note {
+  font-size: 12px;
+  font-weight: 600;
+  color: red;
+}
+
+.remove-btn {
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 18px;
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.pointer-none {
+  pointer-events: none;
+  padding-right: 25px !important;
+}
+
+.price-breakdown {
+  background: #f9f9f9;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+  border: 1px solid #eee;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+.price-breakdown.fade-in {
+  opacity: 1;
+  max-height: 300px;
+}
+.price-breakdown.fade-out {
+  opacity: 0;
+  max-height: 0;
+}
+.price-breakdown h5 {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+.price-breakdown ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.price-breakdown ul li {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 0;
+  font-size: 0.95rem;
+}
+.price-breakdown ul li.final {
+  font-weight: bold;
+  border-top: 1px solid #ddd;
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+}/*# sourceMappingURL=JSBillSplitter.css.map */
